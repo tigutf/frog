@@ -1,4 +1,4 @@
-package com.tf.rule.strategy;
+package com.tf.strategy.rule.strategy;
 
 import java.util.List;
 import java.util.Map;

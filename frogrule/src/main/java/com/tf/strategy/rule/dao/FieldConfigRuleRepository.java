@@ -1,6 +1,6 @@
-package com.tf.rule.dao;
+package com.tf.strategy.rule.dao;
 
-import com.tf.rule.domain.FieldConfigRule;
+import com.tf.strategy.rule.domain.FieldConfigRule;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

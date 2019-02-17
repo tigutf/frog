@@ -1,4 +1,4 @@
-package com.tf.rule.strategy;
+package com.tf.strategy.rule.strategy;
 
 public class ProcessFactory {
     private static ProcessStrategy instance = null;

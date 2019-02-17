@@ -1,4 +1,4 @@
-package com.tf.rule.domain ;
+package com.tf.strategy.rule.domain;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.Column;
