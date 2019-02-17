@@ -1,16 +1,15 @@
-package com.tf.rule.controller;
+package com.tf.strategy.rule.controller;
 
-import com.tf.rule.TypeEnum;
-import com.tf.rule.dao.FieldConfigRuleRepository;
-import com.tf.rule.domain.FieldConfigRule;
-import com.tf.rule.strategy.ProcessFactory;
-import com.tf.rule.strategy.ProcessStrategy;
+import com.tf.strategy.rule.TypeEnum;
+import com.tf.strategy.rule.dao.FieldConfigRuleRepository;
+import com.tf.strategy.rule.domain.FieldConfigRule;
+import com.tf.strategy.rule.strategy.ProcessFactory;
+import com.tf.strategy.rule.strategy.ProcessStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("/test")

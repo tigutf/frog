@@ -1,9 +1,9 @@
-package com.tf.rule;
+package com.tf.strategy.rule;
 
 public enum TypeEnum {
 
-    TYPE_ENUM_A("A","com.tf.rule.strategy.impl.AtestProcess"),
-    TYPE_ENUM_B("B","com.tf.rule.strategy.impl.BtestProcess");
+    TYPE_ENUM_A("A","AtestProcess"),
+    TYPE_ENUM_B("B","BtestProcess");
 
     private String key ;
     private  String value;

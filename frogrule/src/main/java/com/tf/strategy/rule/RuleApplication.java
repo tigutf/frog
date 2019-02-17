@@ -1,4 +1,4 @@
-package com.tf.rule;
+package com.tf.strategy.rule;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

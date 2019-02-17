@@ -33,5 +33,5 @@ CREATE TABLE `field_config_rule` (
 -- ----------------------------
 -- Records of field_config_rule
 -- ----------------------------
-INSERT INTO `field_config_rule` VALUES ('1', 'A', '1', 'b,tr,r,sadf,as,xc,qwe', '1', '0', 'com.tf.rule.strategy.impl.AtestProcess');
-INSERT INTO `field_config_rule` VALUES ('2', 'B', '2', '3,5,9,2,0,12,32,22,11', '1', '0', 'com.tf.rule.strategy.impl.BtestProcess');
+INSERT INTO `field_config_rule` VALUES ('1', 'A', '1', 'b,tr,r,sadf,as,xc,qwe', '1', '0', 'AtestProcess');
+INSERT INTO `field_config_rule` VALUES ('2', 'B', '2', '3,5,9,2,0,12,32,22,11', '1', '0', 'BtestProcess');
