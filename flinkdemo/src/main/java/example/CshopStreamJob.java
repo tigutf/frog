@@ -2,13 +2,13 @@ package example;
 
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
+import example.enums.TableEnum;
+import example.util.CshopData;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.utils.MultipleParameterTool;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Preconditions;
-import org.example.enums.TableEnum;
-import org.example.util.CshopData;
 
 /**
  * 流任务 - 业务逻辑
